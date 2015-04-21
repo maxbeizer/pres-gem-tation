@@ -73,36 +73,142 @@
           </section>
         </section>
 
-        <!-- Example of nested vertical slides -->
         <section>
           <section>
-            <h2>Vertical Slides</h2>
-            <p>Slides can be nested inside of each other.</p>
-            <p>Use the <em>Space</em> key to navigate through all slides.</p>
-            <br>
-            <a href="#" class="navigate-down">
-              <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-            </a>
+            <h1>Gem Structure</h1>
           </section>
+
           <section>
-            <h2>Basement Level 1</h2>
-            <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+            <h2><a target="_blank" href="https://github.com/maxbeizer/gripst/blob/master/gripst.gemspec">gripst.gemspec</a></h2>
+            <small>(for example)</small>
           </section>
+
           <section>
-            <h2>Basement Level 2</h2>
-            <p>That's it, time to go back up.</p>
-            <br>
-            <a href="#/2">
-              <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-            </a>
+            <pre><code>
+Gem::Specification.new do |spec|
+  # gem meta info and dependencies
+end
+            </code></pre>
+          </section>
+
+          <section>
+            <h2>Important Specifcations</h2>
+          </section>
+
+          <section>
+            <h2>Version</h2>
+          </section>
+
+          <section>
+            <h2>Files</h2>
+            <h2>Executables</h2>
+            <h2>Test_files</h2>
+            <h2>Require_paths</h2>
+          </section>
+
+          <section>
+            <h2>add_runtime_dependency</h2>
+          </section>
+
+          <section>
+            <h2>add_development_dependency</h2>
+          </section>
+
+          <section>
+            <h1>What Ruby Gems</h1>
+            <h1>Needs To Know</h1>
+          </section>
+
+          <section>
+            <h1>What Bundler</h1>
+            <h1>Needs To Know</h1>
+          </section>
+
+          <section data-background="#FFFACD">
+            <h1>Your Gem's Heart:</h1>
+            <h1>Lib/</h1>
           </section>
         </section>
 
         <section>
-          <h2>Slides</h2>
-          <p>
-            Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-          </p>
+          <section>
+            <h1>Lib</h1>
+          </section>
+
+          <section>
+            <h2>your_gem.rb</h2>
+
+            <aside class="notes">
+              The convention is to have one Ruby file with the same name as your gem, since that gets loaded when require your gem is run. That one file is in charge of setting up your gem’s code and API.
+            </aside>
+          </section>
+
+          <section>
+            <h2>your_gem/</h2>
+          </section>
+
+          <section>
+            <h2>Avoid Collisions:</h2>
+            <h2>Namespace</h2>
+          </section>
+
+          <section>
+            <h2>Ruby, FTW</h2>
+          </section>
+
+          <section data-background="#FFFACD">
+            <h1>Need an</h1>
+            <h1>Executable?</h1>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Bin</h1>
+          </section>
+
+          <section>
+            <h2>filename = executable</h2>
+          </section>
+
+          <section>
+            <h2>shebang</h2>
+          </section>
+
+          <section>
+            <h2>ARGV</h2>
+          </section>
+
+          <section data-background="#FFFACD">
+            <h2>Don't Just</h2>
+            <h2>Do Things in Your Gem;</h2>
+            <h2>Do Things <i>With</i> Your Gem</h2>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Rakefile</h1>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Spec</h1>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Engines</h1>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>The Real</h1>
+            <h1>Benefits of Gems</h1>
+          </section>
         </section>
 
         <section>

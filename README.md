@@ -10,3 +10,4 @@ grunt serve
 
 ### commands
 - `esc` goes to top-level view
+- `s` goes to speaker view
